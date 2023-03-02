@@ -1,0 +1,105 @@
+body{
+    background-color: #f5e5f9;
+}
+
+.navbar{
+    background-color: #b591be;
+    /* background-color: antiquewhite; */
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav{
+    z-index: 999;
+}
+
+main{
+    z-index: -999;
+}
+
+.bg-navbar{
+    background-color: #b591be;
+}
+
+.btn-search{
+    background-color: #820798;
+    color: white;
+}
+
+.btn-search:hover{
+    background-color: #d3b1ce;
+    color: beige;
+}
+
+
+.bg-col1{
+    background-color: #8d4c98;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.btn-top 
+{
+    background-color: #efdbec;
+    margin: 1vh;
+}
+
+.btn-top a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn-top:hover{
+    background: #b591be;
+    color: #ffff;
+}
+
+ul li .nav-link{
+    color: white;
+    padding-right: 3px;
+}
+
+ul li .nav-link:hover{
+    color: rgb(123, 0, 123);
+}
+
+.list-group-item a:hover{
+    text-decoration: none;
+}
+
+.list-group-item .active{
+    background-color: #8d4c98;
+}
+
+.bg-item{
+    background-color: #c1a9c7;
+}
+
+.bg-item:hover{
+    background-color: #e36ff888;
+}
+
+.card-img-top{
+    height: 100px;
+}
+
+.btn-tambahkan{
+    background-color: #820798;
+    color: white;
+}
+
+.btn-tambahkan:hover{
+    background-color: #b591be;
+}
+
+.carousel{
+    border: solid 1px #820798;
+}
+
+.iklan{
+    height: 275px;
+}
+

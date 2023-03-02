@@ -1,0 +1,63 @@
+body{
+    background-image: url(image/pattern.jpg);
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 0;
+    margin: 7px;
+}
+
+li{
+    display: inline-block;
+    padding: 7px;
+    margin: 0;
+    margin-top: 0;
+}
+
+nav ul li:hover{
+    background-color: rgb(196, 196, 196);
+    top: 0;
+    cursor: pointer;
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin: 70px 150px 5px;
+    display: block;
+    background-color: beige;
+    padding: 10px 20px 10px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
